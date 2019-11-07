@@ -2,27 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://rikeayuarista.github.io/data-mining/</loc>
-     <lastmod>2019-10-03</lastmod>
+     <lastmod>2019-11-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://rikeayuarista.github.io/data-mining/tugas1/</loc>
-     <lastmod>2019-10-03</lastmod>
+     <lastmod>2019-11-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://rikeayuarista.github.io/data-mining/jrak/</loc>
-     <lastmod>2019-10-03</lastmod>
+     <lastmod>2019-11-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://rikeayuarista.github.io/data-mining/Tugas 3/</loc>
-     <lastmod>2019-10-03</lastmod>
+     <lastmod>2019-11-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://rikeayuarista.github.io/data-mining/DECISION TREE/</loc>
-     <lastmod>2019-10-03</lastmod>
+     <lastmod>2019-11-07</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://rikeayuarista.github.io/data-mining/Tugas 5 - Clustering/</loc>
+     <lastmod>2019-11-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
