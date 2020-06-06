@@ -2,42 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://rikeayuarista.github.io/data-mining/</loc>
-     <lastmod>2019-11-21</lastmod>
+     <lastmod>2020-06-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://rikeayuarista.github.io/data-mining/tugas1/</loc>
-     <lastmod>2019-11-21</lastmod>
+     <loc>https://rikeayuarista.github.io/data-mining/tugas1pendat/</loc>
+     <lastmod>2020-06-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://rikeayuarista.github.io/data-mining/jrak/</loc>
-     <lastmod>2019-11-21</lastmod>
+     <lastmod>2020-06-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://rikeayuarista.github.io/data-mining/Tugas 3/</loc>
-     <lastmod>2019-11-21</lastmod>
+     <lastmod>2020-06-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://rikeayuarista.github.io/data-mining/DECISION TREE/</loc>
-     <lastmod>2019-11-21</lastmod>
+     <lastmod>2020-06-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://rikeayuarista.github.io/data-mining/Tugas 5 - Clustering/</loc>
-     <lastmod>2019-11-21</lastmod>
+     <lastmod>2020-06-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://rikeayuarista.github.io/data-mining/fuzzy clustering/</loc>
-     <lastmod>2019-11-21</lastmod>
+     <lastmod>2020-06-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://rikeayuarista.github.io/data-mining/Tugas 7 - Regresi Linier Sederhana dan Berganda/</loc>
-     <lastmod>2019-11-21</lastmod>
+     <lastmod>2020-06-06</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://rikeayuarista.github.io/data-mining/index2/</loc>
+     <lastmod>2020-06-06</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://rikeayuarista.github.io/data-mining/tugas1komnum/</loc>
+     <lastmod>2020-06-06</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://rikeayuarista.github.io/data-mining/Numerical Solution (Komnum)/</loc>
+     <lastmod>2020-06-06</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://rikeayuarista.github.io/data-mining/eliminasi gauss (komnum)/</loc>
+     <lastmod>2020-06-06</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://rikeayuarista.github.io/data-mining/Romberg (komnum)/</loc>
+     <lastmod>2020-06-06</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://rikeayuarista.github.io/data-mining/richardson (komnum)/</loc>
+     <lastmod>2020-06-06</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://rikeayuarista.github.io/data-mining/metode euler (komnum)/</loc>
+     <lastmod>2020-06-06</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://rikeayuarista.github.io/data-mining/Monte Carlo (komnum)/</loc>
+     <lastmod>2020-06-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>

@@ -13,7 +13,7 @@
         <meta name="description" content="Repository Matakuliah Komputasi Numerik">
       
       
-        <link rel="canonical" href="https://rikeayuarista.github.io/data-mining/Tugas 5 - Clustering/">
+        <link rel="canonical" href="https://rikeayuarista.github.io/data-mining/richardson (komnum)/">
       
       
         <meta name="author" content="Rike Ayu Arista">
@@ -42,7 +42,7 @@
     
     
       
-        <title>Clustering - Rike Ayu Arista</title>
+        <title>Richardson Extrapolation - Rike Ayu Arista</title>
       
     
     
@@ -118,7 +118,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#clustering" tabindex="1" class="md-skip">
+      <a href="#richardson-extrapolation" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -144,7 +144,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Clustering
+                Richardson Extrapolation
               
             </span>
           
@@ -223,7 +223,7 @@
   
     <li class="md-tabs__item">
       
-        <a href=".." class="md-tabs__link md-tabs__link--active">
+        <a href=".." class="md-tabs__link">
           Penambangan Data
         </a>
       
@@ -236,7 +236,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../index2/" class="md-tabs__link">
+        <a href="../index2/" class="md-tabs__link md-tabs__link--active">
           Komputasi Numerik
         </a>
       
@@ -291,12 +291,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
     
     <label class="md-nav__link" for="nav-1">
       Penambangan Data
@@ -372,111 +370,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Clustering
-      </label>
-    
-    <a href="./" title="Clustering" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../Tugas 5 - Clustering/" title="Clustering" class="md-nav__link">
       Clustering
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#clustering-dengan-pendekatan-partisi" class="md-nav__link">
-    Clustering dengan pendekatan partisi
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#algoritma-k-means" class="md-nav__link">
-    Algoritma K-Means
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#rumus-k-means" class="md-nav__link">
-    Rumus K-Means
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#metode-k-modes" class="md-nav__link">
-    Metode K-Modes
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#metode-k-prototype" class="md-nav__link">
-    Metode K-Prototype
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#algoritma-k-prototype" class="md-nav__link">
-    Algoritma K-Prototype
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#rumus-k-prototype" class="md-nav__link">
-    Rumus K-Prototype
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#clustering-dengan-pendekatan-hirarki" class="md-nav__link">
-    Clustering dengan Pendekatan Hirarki
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#clustering-dengan-pendekatan-automatic-mapping-self-organising-mapsom" class="md-nav__link">
-    Clustering Dengan Pendekatan Automatic Mapping (Self-Organising Map/SOM)
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -513,10 +411,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
       Komputasi Numerik
@@ -592,11 +492,63 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../richardson (komnum)/" title="Richardson Extrapolation" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Richardson Extrapolation
+      </label>
+    
+    <a href="./" title="Richardson Extrapolation" class="md-nav__link md-nav__link--active">
       Richardson Extrapolation
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#teori" class="md-nav__link">
+    Teori
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contoh-program" class="md-nav__link">
+    Contoh Program
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hasil-running" class="md-nav__link">
+    Hasil Running
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -650,70 +602,22 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#clustering-dengan-pendekatan-partisi" class="md-nav__link">
-    Clustering dengan pendekatan partisi
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#algoritma-k-means" class="md-nav__link">
-    Algoritma K-Means
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#rumus-k-means" class="md-nav__link">
-    Rumus K-Means
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#metode-k-modes" class="md-nav__link">
-    Metode K-Modes
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#metode-k-prototype" class="md-nav__link">
-    Metode K-Prototype
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#algoritma-k-prototype" class="md-nav__link">
-    Algoritma K-Prototype
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#rumus-k-prototype" class="md-nav__link">
-    Rumus K-Prototype
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#clustering-dengan-pendekatan-hirarki" class="md-nav__link">
-    Clustering dengan Pendekatan Hirarki
+  <a href="#teori" class="md-nav__link">
+    Teori
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#clustering-dengan-pendekatan-automatic-mapping-self-organising-mapsom" class="md-nav__link">
-    Clustering Dengan Pendekatan Automatic Mapping (Self-Organising Map/SOM)
+  <a href="#contoh-program" class="md-nav__link">
+    Contoh Program
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hasil-running" class="md-nav__link">
+    Hasil Running
   </a>
   
 </li>
@@ -735,76 +639,73 @@
               
                 
                 
-                <h1 id="clustering">CLUSTERING<a class="headerlink" href="#clustering" title="Permanent link">&para;</a></h1>
+                <h1 id="richardson-extrapolation"><strong>Richardson Extrapolation</strong><a class="headerlink" href="#richardson-extrapolation" title="Permanent link">&para;</a></h1>
 <blockquote>
-<p>Clustering adalah metode penganalisaan data yang sering dimasukkan sebagai salah satu metode <em>Data Mining</em> yang tujuannya adalah untuk mengelompokkan data dengan karakteristik yang sama ke suatu wilayah yang sama dan data dengan karakteristik yang berbeda ke wilayah yang lain.</p>
+<p>Dalam analisis numerik, Richardson Extrapolation adalah metode percepatan urutan, yang digunakan untuk meningkatkan laju konvergensi suatu urutan. </p>
+<p>Richardson Extrapolation termasuk integrasi Romberg, yang menerapkan ekstrapolasi Richardson pada aturan trapesium, dan algoritma Bulirsch-Stoer untuk menyelesaikan persamaan diferensial biasa.</p>
 </blockquote>
-<p>​   Ada beberapa pendekatan yang digunakan dalam mengembangkan metode clustering, dua pendekatan utama adalah clustering dengan pendekatan partisi dan clustering dengan pendekatan hirarki. Clustering dengan pendekatan partisi atau sering disebut dengan <em>partition-based clustering</em> mengelompokkan data dengan memilah-milah data yang dianalisa ke dalam cluster-cluster yang ada. Clustering dengan pendekatan hirarki atau sering disebut dengan <em>hierarchical clustering</em> mengelompokkan data dengan membuat suatu hirarki berupa dendogram dimana data yang mirip akan ditempatkan pada hirarki yang berdekatan dan yang tidak pada hirarki yang berjauhan. Di samping kedua pendekatan tersebut, ada juga clustering dengan pendekatan <em>automatic mapping</em> (Self-Organising Map/SOM).</p>
-<h2 id="clustering-dengan-pendekatan-partisi"><strong>Clustering dengan pendekatan partisi</strong><a class="headerlink" href="#clustering-dengan-pendekatan-partisi" title="Permanent link">&para;</a></h2>
-<p><em>1. K-Means</em></p>
-<p>​   Salah satu metode yang banyak digunakan dalam melakukan clustering dengan partisi ini adalah metode k-means. Secara umum metode k-means ini melakukan proses pengelompokan dengan prosedur sebagai berikut:</p>
-<p>·         Tentukan jumlah cluster</p>
-<p>·         Alokasikan data secara random ke cluster yang ada</p>
-<p>·         Hitung rata-rata setiap cluster dari data yang tergabung di dalamnya</p>
-<p>·         Alokasikan kembali semua data ke cluster terdekat</p>
-<p>·         Ulang proses nomor 3, sampai tidak ada perubahan atau perubahan yang terjadi masih sudah di bawah treshold</p>
-<p>​   Prosedur dasar ini bisa berubah mengikuti pendekatan pengalokasian data yang diterapkan, apakah <em>crisp</em> atau <em>fuzzy</em>. Setelah meneliti clustering dari sudut yang lain, saya menemukan bahwa <em>k-means clustering</em> mempunyai beberapa kelemahan. Fungsi dari algoritma ini adalah mengelompokkan data kedalam beberapa cluster. karakteristik dari algoritma ini adalah :</p>
-<p>.           Memiliki n buah data.</p>
-<p>.           Input berupa jumlah data dan jumlah cluster (kelompok).</p>
-<p>.           Pada setiap cluster/kelompok memiliki sebuah centroid yang mempresentasikan cluster tersebut.</p>
-<h4 id="algoritma-k-means"><strong>Algoritma K-Means</strong><a class="headerlink" href="#algoritma-k-means" title="Permanent link">&para;</a></h4>
-<p>​   Secara sederhana algoritma K-Means dimulai dari tahap berikut :</p>
-<p>.       Pilih K buah titik centroid.</p>
-<p>.       Menghitung jarak data dengan centroid.</p>
-<p>.       Update nilai titik centroid.</p>
-<p>.       Ulangi langkah 2 dan 3 sampai nilai dari titik centroid tidak lagi berubah.</p>
-<h4 id="rumus-k-means">Rumus K-Means<a class="headerlink" href="#rumus-k-means" title="Permanent link">&para;</a></h4>
-<p><img alt="img" src="https://4.bp.blogspot.com/-rb2XXOayk-Q/VhPREJBapVI/AAAAAAAAA9E/HXibvUie9nk/s1600/Rumus%2BEuclidian%2BDistance.png" /></p>
-<h4 id="metode-k-modes"><strong>Metode K-Modes</strong><a class="headerlink" href="#metode-k-modes" title="Permanent link">&para;</a></h4>
-<p>​   K-Modes merupakan pengembangan dari algoritma clustering K-means untuk menangani data kategorik di mana means diganti oleh modes. K-Modes menggunakan simple matching meassure dalam penentuan similarity dari suatu klaster.</p>
-<h4 id="metode-k-prototype"><strong>Metode K-Prototype</strong><a class="headerlink" href="#metode-k-prototype" title="Permanent link">&para;</a></h4>
-<p>​   Tujuan dari simulasi ini adalah mencoba menerapkan algoritma K-Prototype pada data campuran  numerik  dan  kategorikal. Ada  tahap preparation diperlakukan terhadap data point numerik normalisasi terlebih dahulu.</p>
-<h4 id="algoritma-k-prototype"><strong>Algoritma K-Prototype</strong><a class="headerlink" href="#algoritma-k-prototype" title="Permanent link">&para;</a></h4>
-<p>​   Sebelum  masuk  proses  algoritma  K-Prototypes  tentukan  jumlah k yang  akan  dibentuk batasannya minimal 2 dan maksimal √n atau n/2 dimana n adalah jumlah data point atau obyek</p>
-<p>.       Tahap 1 : Tentukan K dengan inisial kluster z1, z2, ..., zk secara acak dari n buah titik {x1, x2, ..., xn}</p>
-<p>.       Tahap 2 : Hitung jarak seluruh data point pada data set terhadap inisial kluster awal, alokasikan data point ke dalam cluster yang memiliki jarak prototype terdekat dengan object yang diukur.</p>
-<p>.       Tahap 3 : Hitung titik pusat cluster yang baru setelah semua objek dialokasikan. Lalu realokasikan semua datapoint pada dataset terhadap prototype yang baru.</p>
-<p>.       Tahap 4 : jika titik pusat cluster tidak berubah atau sudah konvergen maka proses algoritma berhenti tetapi jika titik pusat masih berubah-ubah secara signifikan maka proses kembali ke tahap 2 dan 3 hingga iterasi maksimum tercapai atau sudah tidak ada perpindahan objek. </p>
-<h4 id="rumus-k-prototype"><strong>Rumus K-Prototype</strong><a class="headerlink" href="#rumus-k-prototype" title="Permanent link">&para;</a></h4>
-<p><img alt="img" src="https://miro.medium.com/max/558/1*HxkHjH647N_9wKjqUBeJiw.png" /></p>
-<p><em>2. Mixture Modelling (Mixture Modeling)</em></p>
-<p>​   Mixture modelling merupakan metode pengelompokan data yang mirip dengan k-means dengan kelebihan penggunaan distribusi statistik dalam mendefinisikan setiap cluster yang ditemukan. Dibandingkan dengan k-means yang hanya menggunakan cluster center, penggunaan distribusi statistik ini mengijinkan kita untuk:</p>
-<p>·         Memodel data yang kita miliki dengan setting karakteristik yang berbeda-beda</p>
-<p>·         Jumlah cluster yang sesuai dengan keadaan data bisa ditemukan seiring dengan proses pemodelan karakteristik dari masing-masing cluster</p>
-<p>·         Hasil pemodelan clustering yang dilaksanakan bisa diuji tingkat keakuratannya</p>
-<p>​   Distribusi statistik yang digunakan bisa bermacam-macam mulai dari yang digunakan untuk data categorical sampai yang continuous, termasuk di antaranya distribusi binomial, multinomial, normal dan lain-lain. Beberapa distribusi yang bersifat tidak normal seperti distribusi Poisson, von-Mises, Gamma dan Student t, juga diterapkan untuk bisa mengakomodasi berbagai keadaan data yang ada di lapangan. Beberapa pendekatan multivariate juga banyak diterapkan untuk memperhitungkan tingkat keterkaitan antara variabel data yang satu dengan yang lainnya.</p>
-<h2 id="clustering-dengan-pendekatan-hirarki"><strong>Clustering dengan Pendekatan Hirarki</strong><a class="headerlink" href="#clustering-dengan-pendekatan-hirarki" title="Permanent link">&para;</a></h2>
-<p>​   Clustering dengan pendekatan hirarki mengelompokkan data yang mirip dalam hirarki yang sama dan yang tidak mirip di hirarki yang agak jauh. Ada dua metode yang sering diterapkan yaitu <em>agglomerative hieararchical clustering</em> dan <em>divisive hierarchical clustering</em>. Agglomerative melakukan proses clustering dari <em>N</em> cluster menjadi satu kesatuan cluster, dimana <em>N</em> adalah jumlah data, sedangkan divisive melakukan proses clustering yang sebaliknya yaitu dari satu cluster menjadi <em>N</em> cluster.</p>
-<p>​   Beberapa metode <em>hierarchical clustering</em> yang sering digunakan dibedakan menurut cara mereka untuk menghitung tingkat kemiripan. Ada yang menggunakan <em>Single Linkage</em>, <em>Complete Linkage</em>, <em>Average Linkage</em>, <em>Average Group Linkage</em> dan lain-lainnya. Seperti juga halnya dengan <em>partition-based clustering</em>, kita juga bisa memilih jenis jarak yang digunakan untuk menghitung tingkat kemiripan antar data.</p>
-<p>​   Salah satu cara untuk mempermudah pengembangan dendogram untuk hierarchical clustering ini adalah dengan membuat similarity matrix yang memuat tingkat kemiripan antar data yang dikelompokkan. Tingkat kemiripan bisa dihitung dengan berbagai macam cara seperti dengan Euclidean Distance Space. Berangkat dari similarity matrix ini, kita bisa memilih lingkage jenis mana yang akan digunakan untuk mengelompokkan data yang dianalisa.</p>
-<h2 id="clustering-dengan-pendekatan-automatic-mapping-self-organising-mapsom"><strong>Clustering Dengan Pendekatan Automatic Mapping (Self-Organising Map/SOM)</strong><a class="headerlink" href="#clustering-dengan-pendekatan-automatic-mapping-self-organising-mapsom" title="Permanent link">&para;</a></h2>
-<p>​   Self-Organising Map merupakan suatu tipe Artificial Neural Networks yang di-training secara unsupervised. SOM menghasilkan map yang terdiri dari output dalam dimensi yang rendah (2 atau 3 dimensi). Map ini berusaha mencari property dari input data. Komposisi input dan output dalam SOM mirip dengan komposisi dari proses feature scaling (multidimensional scaling).</p>
-<p>​   Walaupun proses learning yang dilakukan mirip dengan Artificial Neural Networks, tetapi proses untuk meng-assign input data ke map, lebih mirip dengan K-Means dan kNN Algorithm. Adapun prosedur yang ditempuh dalam melakukan clustering dengan SOM adalah sebagai berikut:</p>
-<p>·         Tentukan weight dari input data secara random</p>
-<p>·         Pilih salah satu input data</p>
-<p>·         Hitung tingkat kesamaan (dengan Eucledian) antara input data dan weight dari input data tersebut dan pilih input data yang memiliki kesamaan dengan weight yang ada (data ini disebut dengan Best Matching Unit (BMU))</p>
-<p>·         Perbaharui weight dari input data dengan mendekatkan weight tersebut ke BMU dengan rumus:</p>
-<p><em>Wv(t+1) = Wv(t) + Theta(v, t) x Alpha(t) x (D(t) – Wv(t))</em></p>
-<p>Dimana:</p>
-<p>o    <em>Wv(t)</em>: Weight pada saat ke-t</p>
-<p>o    <em>Theta (v, t)</em>: Fungsi neighbourhood yang tergantung pada Lattice distance antara BMU dengan neuron v. Umumnya bernilai 1 untuk neuron yang cukup dekat dengan BMU, dan 0 untuk yang sebaliknya. Penggunaan fungsi Gaussian juga memungkinkan.</p>
-<p>o    <em>Alpha (t)</em>: Learning Coefficient yang berkurang secara monotonic</p>
-<p>o    <em>D(t)</em>: Input data</p>
-<p>·         Tambah nilai t, sampai t &lt; <em>Lambda</em>, dimana <em>Lambda</em> adalah jumlah iterasi</p>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {inlineMath: [['$$','$$']]}
-});
-</script>
+<h3 id="teori"><strong>Teori</strong><a class="headerlink" href="#teori" title="Permanent link">&para;</a></h3>
+<p>Dalam rumus :</p>
+<p><strong><em>( f (x + h) - f (x - h) ) / (2 h)</em></strong></p>
+<p>untuk nilai h yang sangat kecil, dua fungsi evaluasi <em>f (x + h)</em> dan <em>f (x - h)</em> akan menjadi kira-kira sama, dan oleh karena itu pembatalan subtraktif akan terjadi. Oleh karena itu, tidak disarankan untuk menggunakan nilai h yang semakin kecil.</p>
+<p>Kita dapat mencoba untuk memperkirakan nilai tepat <em>e</em> dengan perkiraan <em>a(h)</em>. Dalam hal ini, <em>e</em> adalah turunan dari <em>f (1) (x)</em> dan perkiraannya adalah <em>( h ) = (f (x + h) - f (x - h)) / (2 h)</em>. Misalkan sekarang bahwa kesalahan aproksimasi didefinisikan oleh serangkaian bentuk Taylor :</p>
+<p align = "center"><i>e = a(h) + K h<sup>n</sup> + o(h<sup>n</sup>)</i></p>
 
-<p><script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script></p>
+<p>Apabila menggunakan <em>h / 2</em> :</p>
+<p align = "center"><i>e = a(h/2) + K (h/2)n + o((h/2)n)</i>
+<br><i>= a(h/2) + K/2n h<sup>n</sup> + o(h<sup>n</sup>)</i></p>
+
+<p>Mengalikan kedua ekspresi ini dengan 2<em>n</em> dan mengurangi hasil persamaan pertama</p>
+<p align = "center"><i>2n<sup>e</sup> − e = 2na(h/2) − a(h) + K/2n h<sup>n</sup> − K h<sup>n</sup> + o(h<sup>n</sup>)</i></p>
+
+<p>Perhatikan bahwa istilah h<sup>n</sup> dibatalkan dan kita dibiarkan dengan</p>
+<p align = "center"><i>(2n − 1)e = 2na(h/2) − a(h) + o(h<sup>n</sup>)</i></p>
+
+<p>Jika kita melihat seri Taylor lengkap untuk rumus perbedaan-terpusat yang terpusat, kita perhatikan bahwa istilah kesalahannya dalam bentuk Knh<sup>n</sup>. Dapat kita tulis dengan :</p>
+<p align = center><i>K1 = −1/6 f(3)(x)h<sup>2</sup>, etc.</i></p>
+
+<h3 id="contoh-program"><strong>Contoh Program</strong><a class="headerlink" href="#contoh-program" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><span class="kn">from</span> <span class="nn">math</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="k">def</span> <span class="nf">zeros</span><span class="p">(</span><span class="n">n</span><span class="p">,</span><span class="n">m</span><span class="p">):</span>
+    <span class="n">Z</span><span class="o">=</span><span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+        <span class="n">Z</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">m</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">Z</span>
+
+<span class="k">def</span> <span class="nf">D</span><span class="p">(</span><span class="n">Func</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">h</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">(</span><span class="n">Func</span><span class="p">(</span><span class="n">a</span><span class="o">+</span><span class="n">h</span><span class="p">)</span><span class="o">-</span><span class="n">Func</span><span class="p">(</span><span class="n">a</span><span class="o">-</span><span class="n">h</span><span class="p">))</span><span class="o">/</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">h</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">Richardson_dif</span><span class="p">(</span><span class="n">func</span><span class="p">,</span><span class="n">a</span><span class="p">):</span> 
+    <span class="sd">&#39;&#39;&#39;Richardson extrapolation method for numerical calculation of first derivative &#39;&#39;&#39;</span>
+    <span class="n">k</span><span class="o">=</span><span class="mi">9</span> 
+    <span class="n">L</span><span class="o">=</span><span class="n">zeros</span><span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="n">k</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">I</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">k</span><span class="p">):</span>
+        <span class="n">L</span><span class="p">[</span><span class="n">I</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">=</span><span class="n">D</span><span class="p">(</span><span class="n">func</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="mi">1</span><span class="o">/</span><span class="p">(</span><span class="mi">2</span><span class="o">**</span><span class="p">(</span><span class="n">I</span><span class="o">+</span><span class="mi">1</span><span class="p">)))</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">k</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">k</span><span class="o">-</span><span class="n">j</span><span class="p">):</span>
+            <span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span><span class="o">=</span><span class="p">((</span><span class="mi">4</span><span class="o">**</span><span class="p">(</span><span class="n">j</span><span class="p">))</span><span class="o">*</span><span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">-</span><span class="n">L</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span><span class="o">/</span><span class="p">(</span><span class="mi">4</span><span class="o">**</span><span class="p">(</span><span class="n">j</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">L</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="n">k</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; DIFERENSIASI NUMERIK DARI &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;=======================================================================&quot;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;f = -0.1*x**4-0.15*x**3-0.5*x**2-0.25*x+1.2 dengan x = 0.5&#39;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;=======================================================================&quot;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%04.20f</span><span class="s1">&#39;</span><span class="o">%</span><span class="n">Richardson_dif</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="o">-</span><span class="mf">0.1</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">4</span><span class="o">-</span><span class="mf">0.15</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">3</span><span class="o">-</span><span class="mf">0.5</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="o">-</span><span class="mf">0.25</span><span class="o">*</span><span class="n">x</span><span class="o">+</span><span class="mf">1.2</span> <span class="p">,</span><span class="mf">0.5</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;=======================================================================&quot;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;diff(2**cos(pi+sin(x)) dengan x = pi/2 adalah = </span><span class="si">%04.20f</span><span class="s1">&#39;</span><span class="o">%</span><span class="n">Richardson_dif</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="mi">2</span><span class="o">**</span><span class="n">cos</span><span class="p">(</span><span class="n">pi</span><span class="o">+</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="p">)),</span><span class="n">pi</span><span class="o">/</span><span class="mi">3</span><span class="p">))</span>
+</pre></div>
+
+
+<h3 id="hasil-running"><strong>Hasil Running</strong><a class="headerlink" href="#hasil-running" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><span class="o">&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;</span> <span class="n">DIFERENSIASI</span> <span class="n">NUMERIK</span> <span class="n">DARI</span> <span class="o">&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;</span>
+<span class="o">=======================================================================</span>
+<span class="n">f</span> <span class="o">=</span> <span class="o">-</span><span class="mf">0.1</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">4</span><span class="o">-</span><span class="mf">0.15</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">3</span><span class="o">-</span><span class="mf">0.5</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="o">-</span><span class="mf">0.25</span><span class="o">*</span><span class="n">x</span><span class="o">+</span><span class="mf">1.2</span> <span class="n">dengan</span> <span class="n">x</span> <span class="o">=</span> <span class="mf">0.5</span>
+<span class="o">=======================================================================</span>
+<span class="o">-</span><span class="mf">0.91250000000000530687</span>
+<span class="o">=======================================================================</span>
+<span class="n">diff</span><span class="p">(</span><span class="mi">2</span><span class="o">**</span><span class="n">cos</span><span class="p">(</span><span class="n">pi</span><span class="o">+</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="p">))</span> <span class="n">dengan</span> <span class="n">x</span> <span class="o">=</span> <span class="n">pi</span><span class="o">/</span><span class="mi">2</span> <span class="n">adalah</span> <span class="o">=</span> <span class="mf">0.16849558398154249050</span>
+<span class="o">&gt;&gt;&gt;</span> 
+</pre></div>
                 
                   
                 
@@ -825,7 +726,7 @@ MathJax.Hub.Config({
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../DECISION TREE/" title="Decision Tree" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../Romberg (komnum)/" title="Integrasi Romberg" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -834,19 +735,19 @@ MathJax.Hub.Config({
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Decision Tree
+                Integrasi Romberg
               </span>
             </div>
           </a>
         
         
-          <a href="../fuzzy clustering/" title="fuzzy clustering" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../metode euler (komnum)/" title="Metode Euler" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                fuzzy clustering
+                Metode Euler
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
